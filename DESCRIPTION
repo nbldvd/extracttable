@@ -1,16 +1,18 @@
 Package: extracttable
-Title: What the Package Does (One Line, Title Case)
+Title: Extract tables fro pdf
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Davide",
+           family = "Nobile",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "davide.nobile@tum.de",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: Imports table from pdf and returns a dataframe.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports: 
+    tabulizer
